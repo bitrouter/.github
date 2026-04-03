@@ -1,6 +1,6 @@
-# BitRouter AI 
+## BitRouter AI 
 
-## A Peer-to-Peer Intelligence Router
+### A Peer-to-Peer Intelligence Router
 Computers used to retrieve bytes. Now they generate tokens.
 
 That is not an incremental improvement. It is a paradigm shift — the same magnitude as moving from physical mail to the internet, from gold to programmable money. The atomic unit of computing changed.
