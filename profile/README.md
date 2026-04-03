@@ -8,9 +8,9 @@ That is not an incremental improvement. It is a paradigm shift — the same magn
 
 The routing infrastructure has not caught up.
 
-BitTorrent routed bytes.
-Bitcoin routed value.
-Bittensor routes intelligence supply.
+BitTorrent routed bytes.  
+Bitcoin routed value.  
+Bittensor routes intelligence supply.  
 **BitRouter routes intelligence demand.**
 
 Agents today are locked to single providers, paying opaque prices, generating no signal that makes the next call smarter. The centralized routing layer exists. The peer-to-peer version does not.
@@ -20,8 +20,6 @@ We are building toward that layer.
 Starting with what is immediately real: an open intelligence router for LLM agents. Single binary. Zero infrastructure dependencies. Built in Rust.
 
 Not a wrapper. Not a proxy. A foundation.
-
----
 
 ### Start Here
 
