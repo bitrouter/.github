@@ -1,38 +1,43 @@
-## BitRouter - A Peer-to-Peer Intelligence Router
+# BitRouter AI
 
-### Manifesto
+**The open intelligence layer for autonomous agents.**
 
-Computers used to retrieve bytes. Now they generate tokens.
+BitRouterAI builds the infrastructure that lets LLM agents discover, route to, and pay for models and tools across every provider — through a single, permissionless network.
 
-That is not an incremental improvement. It is a paradigm shift — the same magnitude as moving from physical mail to the internet, from gold to programmable money. The atomic unit of computing changed.
+One local binary. One endpoint. Any agent. Any provider. No middleman.
 
-The routing infrastructure has not caught up.
+## What is BitRouter?
 
-BitTorrent routed bytes.  
-Bitcoin routed value.  
-Bittensor routes intelligence supply.  
-**BitRouter routes intelligence demand.**
+BitRouter is an open intelligence router for LLM agents — a single local binary that gives any agent one endpoint to discover, route to, and pay for LLMs and tools across providers. It runs anywhere your agent runs, with no dependencies to install.
 
-Agents today are locked to single providers, paying opaque prices, generating no signal that makes the next call smarter. The centralized routing layer exists. The peer-to-peer version does not.
+Built for autonomous loops with first-class reliability, observability, and guardrails — and operated as a **permissionless network** where any provider can register and any agent can connect.
 
-We are building toward that layer.
+## Why We're Building This
 
-Starting with what is immediately real: an open intelligence router for LLM agents. Single binary. Zero infrastructure dependencies. Built in Rust.
+Today’s LLM agents lose hours of work to a single provider outage. They rewrite integration code every time they swap models. They ship risky outputs with no consistent way to redact or block them. And they operate in the dark because each provider only shows its own slice.
 
-Not a wrapper. Not a proxy. A foundation.
+**BitRouterAI exists to change that.**
 
-### Start Here
+We’re building an open, intelligent unified router designed for autonomous agent loops — it survives outages with automatic fallback, lets agents swap models without code changes, redacts or blocks risky content at the proxy, and shows every call, cost, and error in one feed.
 
-- [**bitrouter/bitrouter**](https://github.com/bitrouter/bitrouter) — The core router. Single binary, built in Rust. Routing, guardrails, observability, MCP gateway, and agentic payments.
-- [**bitrouter/x402-kit**](https://github.com/bitrouter/x402-kit) — Rust SDK for x402 payment integration. The payment primitive for agent-to-agent and agent-to-API transactions.
-- [**bitrouter/agent-skills**](https://github.com/bitrouter/agent-skills) — Agent Skills for Claude Code, Copilot, Cursor, and Codex. Give your agent the knowledge to register, configure, and serve on the BitRouter network.
-- [**bitrouter/agents-database**](https://github.com/bitrouter/agents-database) — An open-source database of AI agents. Models have models.dev. Tools have MCP registries. Agents needed this.
+Our longer-term mission is an **open, permissionless intelligence layer** where agents discover, route to, and pay for their own resources — owned by the agents and operators using it, not a gateway company in the middle.
 
-### Participate
+## Explore the Ecosystem
 
-- **Use it** — `cargo install bitrouter` and point your agent harness at `localhost:8787`
-- **Register your agent** — one TOML file, one PR at [agents.bitrouter.ai](https://agents.bitrouter.ai)
-- **Build on it** — add a provider, extend guardrails, integrate a new protocol
-- **Discuss it** — [Discord](https://discord.gg/G3zVrZDa5C) · [Issues](https://github.com/bitrouter/bitrouter/issues)
+| Repository              | Description                                                                 |
+|-------------------------|-----------------------------------------------------------------------------|
+| **[bitrouter](https://github.com/bitrouter/bitrouter)** | The core open-source router (Rust) — the heart of the network              |
+| **[agent-skills](https://github.com/bitrouter/agent-skills)** | Skills that teach agents how to register, configure, and use BitRouter    |
+| **[provider-registry](https://github.com/bitrouter/provider-registry)** | Permissionless public registry of LLM providers anyone can join           |
+| **[bitrouter-docs](https://github.com/bitrouter/bitrouter-docs)** | Official documentation, guides, and API references                        |
 
-> The peer-to-peer layer gets built by the people who need it.
+## Get Started
+
+- **Website & Docs**: [bitrouter.ai](https://bitrouter.ai)
+- **Discord Community**: [discord.gg/G3zVrZDa5C](https://discord.gg/G3zVrZDa5C)
+- **Twitter / X**: [@BitRouterAI](https://x.com/BitRouterAI)
+
+Join the network. Build the future of agent infrastructure with us.
+
+---
+*BitRouterAI — Agents deserve better infrastructure.*
