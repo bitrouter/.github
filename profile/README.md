@@ -11,8 +11,10 @@ Free to self-host. Cloud option available.
 | Repo | |
 |---|---|
 | **[bitrouter](https://github.com/bitrouter/bitrouter)** | Core router — open source, written in Rust |
-| **[bitrouter-docs](https://github.com/bitrouter/bitrouter-docs)** | Docs, guides, and API reference |
-| **[provider-registry](https://github.com/bitrouter/provider-registry)** | Open registry of LLM providers |
+| **[provider-registry](https://github.com/bitrouter/provider-registry)** | Open database of LLM providers for AI agents |
 | **[agent-skills](https://github.com/bitrouter/agent-skills)** | Skills that teach agents to use BitRouter |
+| **[hermes-bitrouter-plugin](https://github.com/bitrouter/hermes-bitrouter-plugin)** | BitRouter plugin for Hermes Agent |
+| **[bitrouter-openclaw](https://github.com/bitrouter/bitrouter-openclaw)** | BitRouter plugin for OpenClaw |
+| **[awesome-agent-harness](https://github.com/bitrouter/awesome-agent-harness)** | Curated list of agent harnesses |
 
 [bitrouter.ai](https://bitrouter.ai) · [Discord](https://discord.gg/G3zVrZDa5C) · [Telegram](https://t.me/bitrouterai) · [@BitRouterAI](https://x.com/BitRouterAI) · [contact@bitrouter.ai](mailto:contact@bitrouter.ai)
